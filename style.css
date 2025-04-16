@@ -1,0 +1,83 @@
+/* Reset some basic styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
+  padding: 40px;
+  color: #333;
+}
+
+h1 {
+  color: #00274d;
+  margin-bottom: 20px;
+}
+
+/* Container for the form */
+#gpa-form {
+  background-color: #ffffff;
+  border: 1px solid #d9e2ec;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Each course input row */
+.course-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+/* Text and select fields */
+input[type="text"],
+select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  flex: 1;
+  background-color: #fefefe;
+  transition: border 0.2s ease;
+}
+
+input[type="text"]:focus,
+select:focus {
+  border-color: #0066cc;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #004a99;
+}
+
+/* GPA result display */
+#gpa-result {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e6f4ea;
+  color: #006400;
+  border-left: 6px solid #2e8b57;
+  font-weight: bold;
+  border-radius: 6px;
+  max-width: 600px;
+}
